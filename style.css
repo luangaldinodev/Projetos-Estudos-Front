@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+header{
+    height: 500px;
+    background-image: url(imagens/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.home{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.267);
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.home:hover{
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+nav{
+    text-align: right;
+    padding: 20px;
+}
+
+.info-nav{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.title-nav{
+    text-transform: uppercase;
+    color: #fafafa;
+    font-size: 56px;
+    margin-bottom: 40px;
+}
+
+.descricao{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    border-bottom: 1px solid #fafafa;
+}
+
+.card{
+    margin: 26px;
+    background-color: #fafafa;
+    padding: 26px;
+    box-shadow: 5px 5px 10px 0px #292929;
+}
+
+.card h1{
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.botao-card{
+    background-color: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #747474;
+    height: 100px;
+}
+
+footer div{
+    /* background-color: aqua; */
+    width: 30%;
+    margin: auto;
+}
+
+.rodape{
+    color: #e9e9e9;
+    text-align: center;
+}
